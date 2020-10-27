@@ -12,6 +12,8 @@
 
 ```git branch feature1```  cria um novo branch chamado feature1
 
+```git branch -d feature1```  deleta o branch feature1
+
 
 ### HEAD
 
@@ -21,4 +23,4 @@
 
 ## Git checkout
 
-``` git checkout feature2``` cria a branch feature2 e aponta o HEAD para essa branch
+``` git checkout -b feature2``` cria a branch feature2 e aponta o HEAD para essa branch

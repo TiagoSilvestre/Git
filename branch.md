@@ -11,6 +11,7 @@
 
 ```cat .git/HEAD``` traz a referencia do commit na qual o HEAD está, ou seja é o ponto em que se esta trabalhando
 
+```git reset HEAD~1 --hard``` pelo que eu vi, ele volta o head para um commit atrás e apaga as alterações
 
 ## Git checkout
 

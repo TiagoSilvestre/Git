@@ -1,0 +1,10 @@
+## Merge
+
+O merge sempre se faz na branch em que se quer receber os dados.
+
+
+
+-- Pegar o conteudo da master e mesclar em otra brach(feature1)
+
+git checkout feature1
+git merge master

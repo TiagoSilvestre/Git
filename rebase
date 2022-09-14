@@ -1,0 +1,12 @@
+### Rebase
+
+## Git branch
+
+É uma ramificação
+
+## Branch's, Checkout, Merge, Squash e Rebase
+
+
+
+git rebase -i HEAD~5
+

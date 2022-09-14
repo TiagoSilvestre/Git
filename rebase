@@ -1,8 +1,21 @@
 ### Rebase
+Voce esta na branch master, criou uma branch feature para implementar algo novo,
+a master avançou, e a feature tambem paralelamente, ou seja as duas branchs tiveram novos commits.
+Voce continua na feature mas quer as atualizações da master.
+Entao dentro da branch feature executar:
+git rebase master 
+
+Ele vai trazer todas as informaçoes da master sem atrapalhar o seu trabalho e mantendo atualizado.
+Ou seja o rebase é pra atualizar a tua branch feature com as atualizações da master.
+
 
 ## Git branch
 
 É uma ramificação
+
+## Git squash
+Fazer um merge da situação acima, faria com que ao fazer o merge os commits não iriam direto para para o git log, as 
+alteraçoes recebidas na master ficariam no stage verdinho, e a partir dai se commitaria o merge manualmente.
 
 ## Branch's, Checkout, Merge, Squash e Rebase
 

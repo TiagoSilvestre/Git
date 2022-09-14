@@ -3,9 +3,9 @@
 *O comando git remote permite criar, ver e excluir conexões com outros repositórios.*
 
 
-```git remote ``` exite o nome das ligações remotas
+```git remote ``` exibe o nome das ligações remotas
 
-```git remote -v ``` exite informaçoes mais detalhadas sobre o remoto, no caso mais comun mostra o remote origin com seu fetch e push
+```git remote -v ``` exibe informaçoes mais detalhadas sobre o remoto, no caso mais comun mostra o remote origin com seu fetch e push
 
 ```git remote show nomeDoRemoto``` exibe informações ultra super detalhadas do remoto
 

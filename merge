@@ -1,6 +1,14 @@
 ## Merge
 
 O merge sempre se faz na branch em que se quer receber os dados.
+Exemplo: Criasse a master e vais trabalhando em um branch feature. Quando quiser colocar esse feature na master,
+a master ir receber o feature.
+git checkout master
+git merge feature
+
+git merge feature --squash  == Ele nao traz todos os comits para a master, mas traz os arquivos de feature para o stage, 
+ficando verdinho no git log
+
 
 
 
